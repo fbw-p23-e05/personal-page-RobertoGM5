@@ -4,12 +4,12 @@
 }
 
 html {
-    scroll-padding-top: 80px;
+    scroll-padding-top: 180px;
 
 }
 
 body {
-    background-color: rgb(54, 52, 52);
+    background-color: black;
     font-size: 16px;
     color: white;
 }
@@ -46,18 +46,76 @@ nav a:hover {
     background-color: white;
 }
 
-section {
-    padding: 10px 20px;
-    margin: -8px;
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
 }
 
-footer {
-    color: black;
-    background-color: rgb(197, 196, 196);
-    padding: 10px 20px;
-    margin: -8px;
+section {
+    text-align: justify;
+    line-height: 30px;
+    margin: 100px 20%;
 }
 
 section a:visited {
     color: white;
 }
+
+div {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -8px;
+}
+
+.parallax1 {
+    background: url(../img/water.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.parallax2 {
+    background: url(../img/gaming.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.parallax3 {
+    background: url(../img/destination.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding: 10px 20px;
+    margin:-8px;
+}
+
+footer article {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
