@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Forever;
+    src: url(../fonts/forever.ttf);
+}
+@font-face {
+    font-family: Inquisitor;
+    src: url(../fonts/Inquisitor.otf);
+}
+
+html {
+    scroll-padding-top: 180px;
+}
+
+body {
+    background-color: #1a1a1a;
+    background-image: url(../img/background.webp);
+    background-blend-mode: multiply;
+    font-size: 16px;
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    margin: -8px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    font-family: Inquisitor;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    font-size: 22px;
+    margin: 8px 0px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+.home {
+    background-image: url(../img/roberto.gif);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+}
+
+h1 {
+    font-family: Forever;
+    text-shadow: 2px 5px 4px red;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    margin: 100px;
+}
+
+
+
+section {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    margin: 100px 20%;
+}
+
+section p {
+    margin: 40px 100px;
+}
+
+section a:visited {
+    color: white;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+article div {
+    width: 200px;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(0.8) rotate(-180deg);
+    }
+    100%{
+        transform: scale(1.2) rotate(360deg);
+    }
+}
+.anim1 img:hover {
+    animation: pop 1s forwards;
+    box-shadow: 5px 5px 10px black;
+}
+
+h2 {
+    font-family: Inquisitor;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 4px purple;
+}
+.parallax1 {
+    background: url(../img/coder.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -8px;
+}
+
+.parallax2 {
+    background: url(../img/gaming.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -8px;
+}
+
+.parallax3 {
+    background: url(../img/destination.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -8px;
+}
+
+.parallax4 {
+    background: url(../img/contact.webp);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -8px;
+}
+
+.destinations {
+    justify-content: space-between;
+}
+
+footer {
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding: 50px 20px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+
